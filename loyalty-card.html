@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Organic ME Loyalty Card">
+    <meta name="author" content="Ewan Blake.">
+    <title>Organic ME - Loyalty Card</title>
+    <link rel="icon" type="image/x-icon" href="/images/alt-logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
+    <script src="https://kit.fontawesome.com/b89a958fe1.js" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navigation (same as index.html) -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/html/index.html">Organic ME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/index.html">Home</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Loyalty Card Header -->
+    <div class="jumbotron loyalty-jumbotron">
+        <div class="container-fluid">
+            <div class="header-content-inner">
+                <h1>Organic ME Loyalty Card</h1>
+                <h3>Get rewarded for shopping organic with our exclusive loyalty scheme!</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loyalty Card Content Section -->
+    <section class="bg-loyalty bg-section">
+        <div class="container-fluid">
+            <h1 class="container-h1">Our Loyalty Scheme</h1>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">At Organic ME, we value our loyal customers. Our loyalty card scheme rewards you
+                        every time you shop with us, helping you save while supporting sustainable, organic living.</p>
+                </div>
+            </div>
+
+            <div class="row loyalty-features">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Earn Points</h3>
+                        <p>Collect 1 point for every £1 spent in our shop or café. Points add up quickly!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3>Get Rewards</h3>
+                        <p>Redeem your points for discounts, free products, or exclusive offers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <h3>Special Discounts</h3>
+                        <p>Members receive exclusive discounts and early access to sales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row loyalty-details">
+                <div class="col-md-6">
+                    <div class="loyalty-card-visual">
+                        <div class="card-front">
+                            <div class="card-header">
+                                <h4>Organic ME</h4>
+                                <p>Loyalty Card</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-barcode"></div>
+                                <div class="card-number">OM-<span id="randomDigits">123456</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="how-it-works">
+                        <h2>How It Works</h2>
+                        <div class="steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Sign Up</h4>
+                                    <p>Register in-store or online to get your free loyalty card</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Shop & Scan</h4>
+                                    <p>Present your card every time you make a purchase</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Earn Points</h4>
+                                    <p>1 point for every £1 spent - points never expire</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Redeem Rewards</h4>
+                                    <p>100 points = £5 discount or choose from special rewards</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row rewards-section">
+                <div class="col-12">
+                    <h2 class="text-center">Reward Tiers</h2>
+                    <div class="tiers-container">
+                        <div class="tier bronze">
+                            <div class="tier-header">
+                                <i class="fas fa-seedling"></i>
+                                <h3>Bronze</h3>
+                                <p>0-499 points</p>
+                            </div>
+                            <ul class="tier-benefits">
+                                <li>1 point per £1 spent</li>
+                                <li>Monthly member newsletter</li>
+                                <li>Birthday treat</li>
+                            </ul>
+                        </div>
+                        <div class="tier silver">
+                            <div class="tier-header">
+                                <i class="fas fa-leaf"></i>
+                                <h3>Silver</h3>
+                                <p>500-999 points</p>
+                            </div>
+                            <ul class="tier-benefits">
+                                <li>All Bronze benefits</li>
+                                <li>1.25 points per £1 spent</li>
+                                <li>5% off all purchases</li>
+                                <li>Exclusive event invites</li>
+                            </ul>
+                        </div>
+                        <div class="tier gold">
+                            <div class="tier-header">
+                                <i class="fas fa-award"></i>
+                                <h3>Gold</h3>
+                                <p>1000+ points</p>
+                            </div>
+                            <ul class="tier-benefits">
+                                <li>All Silver benefits</li>
+                                <li>1.5 points per £1 spent</li>
+                                <li>10% off all purchases</li>
+                                <li>Free workshop per year</li>
+                                <li>Priority product access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row signup-section">
+                <div class="col-lg-8 mx-auto">
+                    <div class="signup-card">
+                        <h2>Join Our Loyalty Scheme</h2>
+                        <p>Sign up today and start earning rewards on your next visit!</p>
+
+                        <form id="loyaltyForm" class="loyalty-form">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="firstName" placeholder="First Name"
+                                        required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email Address"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="terms" required>
+                                <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+                            </div>
+                            <button type="submit" class="btn loyalty-signup-btn">Sign Up Now</button>
+                        </form>
+
+                        <div id="signupSuccess" class="signup-success">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Success!</h4>
+                            <p>Your loyalty card application has been received. Visit us in-store to collect your card.
+                            </p>
+                            <div class="virtual-card">
+                                <p>Your temporary card number:</p>
+                                <h5>OM-<span id="generatedNumber">987654</span></h5>
+                                <small>Show this number at checkout to start earning points</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row faq-section">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="text-center">Frequently Asked Questions</h2>
+                    <div class="accordion" id="loyaltyFAQ">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne">
+                                        How do I check my points balance?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#loyaltyFAQ">
+                                <div class="card-body">
+                                    You can check your points balance at any time by asking our staff in-store. We're
+                                    also developing an online portal where you'll be able to check your balance and
+                                    rewards.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo">
+                                        Do points expire?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#loyaltyFAQ">
+                                <div class="card-body">
+                                    No! Your points never expire as long as your account remains active. An account is
+                                    considered active if you make at least one purchase every 12 months.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree">
+                                        Can I use my loyalty points in the café?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#loyaltyFAQ">
+                                <div class="card-body">
+                                    Absolutely! Your loyalty card works in both our shop and café. You can earn and
+                                    redeem points at both locations.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour">
+                                        What special rewards are available?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" data-parent="#loyaltyFAQ">
+                                <div class="card-body">
+                                    In addition to discounts, we offer special rewards like free workshops, early access
+                                    to new products, and exclusive tasting events. These change seasonally, so check
+                                    with our staff for current offers.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-footer" id="footer">
+        <div class="container-fluid">
+            <div class="row footer-align">
+                <div class="col-md-4 col-sm-4">
+                    <h5>About Organic ME</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <p class="footer">
+                            Organic ME is dedicated to providing fresh, locally sourced organic products and promoting
+                            sustainable living in the Scottish Borders.
+                        </p>
+                        <ul class="social-networks">
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h5>Contact Us</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <address>
+                            45 Meadowcroft Road
+                            <br>
+                            Kelso, TD5 7AB
+                            <br>
+                            Scottish Borders, Scotland
+                            <br>
+                            <i class="fa fa-phone address"></i> +44 1573 123456
+                            <br>
+                            <i class="fa fa-envelope address"></i> <a
+                                href="mailto:info@organicme.co.uk">info@organicme.co.uk</a>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h5>Opening Hours</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <ul>
+                            <li>Mon-Fri: 08:00-18:00</li>
+                            <li>Sat: 09:00-17:00</li>
+                            <li>Sun: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="to-top" href="#myPage" title="toTop">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </footer>
+    <div class="footer-copyright">
+        <p>&copy 2025 Copyright by Ewan Blake </p>
+    </div>
+</body>
+
+</html>

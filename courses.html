@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Organic ME Courses">
+    <meta name="author" content="Ewan Blake.">
+    <title>Organic ME - Courses</title>
+    <link rel="icon" type="image/x-icon" href="/images/alt-logo.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
+    <script src="https://kit.fontawesome.com/b89a958fe1.js" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navigation (same as index.html) -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/index.html">Organic ME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Courses Header -->
+    <div class="jumbotron courses-jumbotron">
+        <div class="container-fluid">
+            <div class="header-content-inner">
+                <h1>Organic ME Courses</h1>
+                <h3>Learn sustainable living with our hands-on organic gardening courses</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Courses Content Section -->
+    <section class="bg-courses bg-section">
+        <div class="container-fluid">
+            <h1 class="container-h1">Our Courses</h1>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">Join our expert-led courses and discover the joy of organic gardening, sustainable living, and eco-friendly practices in the beautiful Scottish Borders.</p>
+                </div>
+            </div>
+            
+            <div class="row course-categories">
+                <div class="col-md-4">
+                    <div class="category-card" data-category="beginner">
+                        <div class="category-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Beginner</h3>
+                        <p>Perfect for those new to organic gardening</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="category-card active" data-category="intermediate">
+                        <div class="category-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Intermediate</h3>
+                        <p>Expand your organic gardening skills</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="category-card" data-category="advanced">
+                        <div class="category-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <h3>Advanced</h3>
+                        <p>Master organic growing techniques</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row course-list">
+                <!-- Beginner Courses (hidden by default) -->
+                <div class="col-12 course-group beginner-courses" style="display:none;">
+                    <h2 class="text-center">Beginner Courses</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="course-card">
+                                <div class="course-image" style="background-image: url('/images/image11.jpg');"></div>
+                                <div class="course-content">
+                                    <h4>Introduction to Organic Gardening</h4>
+                                    <div class="course-meta">
+                                        <span><i class="far fa-calendar-alt"></i> Monthly on Saturdays</span>
+                                        <span><i class="far fa-clock"></i> 10am - 3pm</span>
+                                        <span><i class="fas fa-pound-sign"></i> £45</span>
+                                    </div>
+                                    <p>Learn the fundamentals of organic gardening, from soil preparation to planting your first crops. Perfect for complete beginners.</p>
+                                    <button class="btn course-btn" data-toggle="modal" data-target="#courseModal" data-title="Introduction to Organic Gardening" data-desc="This course covers all the basics you need to start your organic gardening journey. Topics include soil health, composting, organic pest control, and seasonal planting." data-date="Monthly on Saturdays" data-time="10am - 3pm" data-price="£45" data-image="/images/image11.jpg">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="course-card">
+                                <div class="course-image" style="background-image: url('/images/image18.jpg');"></div>
+                                <div class="course-content">
+                                    <h4>Container Gardening</h4>
+                                    <div class="course-meta">
+                                        <span><i class="far fa-calendar-alt"></i> First Sunday of month</span>
+                                        <span><i class="far fa-clock"></i> 11am - 2pm</span>
+                                        <span><i class="fas fa-pound-sign"></i> £35</span>
+                                    </div>
+                                    <p>Discover how to grow organic produce in small spaces using containers, perfect for urban gardeners.</p>
+                                    <button class="btn course-btn" data-toggle="modal" data-target="#courseModal" data-title="Container Gardening" data-desc="Ideal for those with limited space, this course teaches you how to successfully grow herbs, vegetables and flowers in containers. Learn about suitable plants, container selection, and organic feeding techniques." data-date="First Sunday of month" data-time="11am - 2pm" data-price="£35" data-image="/images/image18.jpg">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Intermediate Courses (shown by default) -->
+                <div class="col-12 course-group intermediate-courses">
+                    <h2 class="text-center">Intermediate Courses</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="course-card">
+                                <div class="course-image" style="background-image: url('/images/image19.jpg');"></div>
+                                <div class="course-content">
+                                    <h4>Organic Vegetable Growing</h4>
+                                    <div class="course-meta">
+                                        <span><i class="far fa-calendar-alt"></i> Every 2nd Saturday</span>
+                                        <span><i class="far fa-clock"></i> 9:30am - 4pm</span>
+                                        <span><i class="fas fa-pound-sign"></i> £65</span>
+                                    </div>
+                                    <p>Take your vegetable growing to the next level with advanced organic techniques for higher yields.</p>
+                                    <button class="btn course-btn" data-toggle="modal" data-target="#courseModal" data-title="Organic Vegetable Growing" data-desc="This intermediate course focuses on maximizing your vegetable yields using organic methods. Topics include crop rotation, companion planting, natural pest management, and season extension techniques." data-date="Every 2nd Saturday" data-time="9:30am - 4pm" data-price="£65" data-image="/images/image19.jpg">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="course-card">
+                                <div class="course-image" style="background-image: url('/images/image26.jpg');"></div>
+                                <div class="course-content">
+                                    <h4>Beekeeping Basics</h4>
+                                    <div class="course-meta">
+                                        <span><i class="far fa-calendar-alt"></i> Seasonal (Spring)</span>
+                                        <span><i class="far fa-clock"></i> 10am - 4pm</span>
+                                        <span><i class="fas fa-pound-sign"></i> £75</span>
+                                    </div>
+                                    <p>Learn the art of sustainable beekeeping and honey production from our expert apiarists.</p>
+                                    <button class="btn course-btn" data-toggle="modal" data-target="#courseModal" data-title="Beekeeping Basics" data-desc="Our popular beekeeping course covers everything from setting up your hive to harvesting honey. Learn about bee biology, hive maintenance, swarm control, and organic honey production. Includes hands-on hive inspection." data-date="Seasonal (Spring)" data-time="10am - 4pm" data-price="£75" data-image="/images/image26.jpg">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Advanced Courses (hidden by default) -->
+                <div class="col-12 course-group advanced-courses" style="display:none;">
+                    <h2 class="text-center">Advanced Courses</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="course-card">
+                                <div class="course-image" style="background-image: url('/images/image10.jpg');"></div>
+                                <div class="course-content">
+                                    <h4>Permaculture Design</h4>
+                                    <div class="course-meta">
+                                        <span><i class="far fa-calendar-alt"></i> Quarterly (2-day course)</span>
+                                        <span><i class="far fa-clock"></i> 9am - 5pm daily</span>
+                                        <span><i class="fas fa-pound-sign"></i> £120</span>
+                                    </div>
+                                    <p>Learn to design sustainable, self-sufficient ecosystems using permaculture principles.</p>
+                                    <button class="btn course-btn" data-toggle="modal" data-target="#courseModal" data-title="Permaculture Design" data-desc="This intensive 2-day course teaches you how to design productive landscapes that work with nature. Learn about zones, sectors, soil building, water harvesting, and creating resilient food systems." data-date="Quarterly (2-day course)" data-time="9am - 5pm daily" data-price="£120" data-image="/images/image10.jpg">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="course-card">
+                                <div class="course-image" style="background-image: url('/images/image21.jpg');"></div>
+                                <div class="course-content">
+                                    <h4>Organic Smallholding</h4>
+                                    <div class="course-meta">
+                                        <span><i class="far fa-calendar-alt"></i> Seasonal (Summer)</span>
+                                        <span><i class="far fa-clock"></i> Weekend course</span>
+                                        <span><i class="fas fa-pound-sign"></i> £150</span>
+                                    </div>
+                                    <p>Comprehensive training for those looking to establish an organic smallholding.</p>
+                                    <button class="btn course-btn" data-toggle="modal" data-target="#courseModal" data-title="Organic Smallholding" data-desc="Our most comprehensive course covers all aspects of running a small organic farm. Topics include livestock management, pasture systems, organic certification, marketing your produce, and sustainable infrastructure." data-date="Seasonal (Summer)" data-time="Weekend course" data-price="£150" data-image="/images/image21.jpg">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row testimonials-section">
+                <div class="col-12">
+                    <h2 class="text-center">What Our Students Say</h2>
+                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                            <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card">
+                                    <img src="/images/image25.jpg" class="rounded-circle" width="100" height="100" alt="Student 1">
+                                    <p>"The beekeeping course transformed my garden! I now have two thriving hives and the most delicious honey."</p>
+                                    <h5>Margaret T., Kelso</h5>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <img src="/images/image7.jpg" class="rounded-circle" width="100" height="100" alt="Student 2">
+                                    <p>"As a complete beginner, I found the Introduction course perfectly paced and packed with practical advice."</p>
+                                    <h5>James P., Edinburgh</h5>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <img src="/images/image3.jpg" class="rounded-circle" width="100" height="100" alt="Student 3">
+                                    <p>"The permaculture design course changed how I see my land. I'm now creating a truly sustainable garden."</p>
+                                    <h5>Sarah L., Galashiels</h5>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row signup-section">
+                <div class="col-lg-8 mx-auto">
+                    <div class="signup-card">
+                        <h2>Ready to Grow With Us?</h2>
+                        <p>Sign up for one of our upcoming courses today!</p>
+                        
+                        <form id="courseSignupForm">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="courseFirstName" placeholder="First Name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="courseLastName" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="courseEmail" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="courseSelect" required>
+                                    <option value="">Select a Course</option>
+                                    <option value="intro">Introduction to Organic Gardening</option>
+                                    <option value="container">Container Gardening</option>
+                                    <option value="vegetable">Organic Vegetable Growing</option>
+                                    <option value="beekeeping">Beekeeping Basics</option>
+                                    <option value="permaculture">Permaculture Design</option>
+                                    <option value="smallholding">Organic Smallholding</option>
+                                </select>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="courseConsent" required>
+                                <label class="form-check-label" for="courseConsent">I agree to receive course information</label>
+                            </div>
+                            <button type="submit" class="btn course-signup-btn">Book My Place</button>
+                        </form>
+                        
+                        <div id="courseSignupSuccess" class="signup-success">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Thank You!</h4>
+                            <p>Your course registration has been received. We'll contact you shortly with confirmation details.</p>
+                            <p>Looking forward to seeing you at Organic ME!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Modal -->
+    <div class="modal fade" id="courseModal" tabindex="-1" role="dialog" aria-labelledby="courseModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="courseModalLabel">Course Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img id="modalCourseImage" src="" class="img-fluid" alt="Course Image">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 id="modalCourseTitle"></h3>
+                            <div class="course-meta">
+                                <p><strong>Schedule:</strong> <span id="modalCourseDate"></span>, <span id="modalCourseTime"></span></p>
+                                <p><strong>Price:</strong> <span id="modalCoursePrice"></span></p>
+                            </div>
+                            <div class="course-description">
+                                <p id="modalCourseDesc"></p>
+                                <h5>What You'll Learn:</h5>
+                                <ul id="modalCourseLearnings">
+                                    <!-- Filled by JavaScript -->
+                                </ul>
+                                <h5>What to Bring:</h5>
+                                <ul>
+                                    <li>Weather-appropriate clothing</li>
+                                    <li>Notebook and pen</li>
+                                    <li>Lunch (for full-day courses)</li>
+                                    <li>Enthusiasm to learn!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="bookThisCourse">Book This Course</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-footer" id="footer">
+        <div class="container-fluid">
+            <div class="row footer-align">
+                <div class="col-md-4 col-sm-4">
+                    <h5>About Organic ME</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <p class="footer">
+                            Organic ME is dedicated to providing fresh, locally sourced organic products and promoting
+                            sustainable living in the Scottish Borders.
+                        </p>
+                        <ul class="social-networks">
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h5>Contact Us</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <address>
+                            45 Meadowcroft Road
+                            <br>
+                            Kelso, TD5 7AB
+                            <br>
+                            Scottish Borders, Scotland
+                            <br>
+                            <i class="fa fa-phone address"></i> +44 1573 123456
+                            <br>
+                            <i class="fa fa-envelope address"></i> <a
+                                href="mailto:info@organicme.co.uk">info@organicme.co.uk</a>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h5>Opening Hours</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <ul>
+                            <li>Mon-Fri: 08:00-18:00</li>
+                            <li>Sat: 09:00-17:00</li>
+                            <li>Sun: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="to-top" href="#myPage" title="toTop">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </footer>
+    <div class="footer-copyright">
+        <p>&copy 2025 Copyright by Ewan Blake </p>
+    </div>
+
+</body>
+</html>

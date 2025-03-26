@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Organic ME">
+    <meta name="author" content="Ewan Blake.">
+    <title>Organic ME</title>
+    <link rel="icon" type="image/x-icon" href="/images/alt-logo.png">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/b89a958fe1.js" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/html/index.html">Organic ME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/index.html">Home</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron newsletter-jumbotron">
+        <div class="container-fluid">
+            <div class="header-content-inner">
+                <h1>Organic ME Monthly Newsletter</h1>
+                <h3>Stay updated with our latest organic products, special offers, and sustainable living tips!</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Content Section -->
+    <section class="bg-newsletter bg-section">
+        <div class="container-fluid">
+            <h1 class="container-h1">Our Newsletter</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="newsletter-card">
+                        <div class="newsletter-header">
+                            <i class="fas fa-leaf newsletter-icon"></i>
+                            <h3>What You'll Receive</h3>
+                        </div>
+                        <ul class="newsletter-features">
+                            <li><i class="fas fa-check-circle"></i> Monthly updates on new organic products</li>
+                            <li><i class="fas fa-check-circle"></i> Exclusive subscriber-only discounts</li>
+                            <li><i class="fas fa-check-circle"></i> Seasonal recipes using our organic ingredients</li>
+                            <li><i class="fas fa-check-circle"></i> Gardening tips from our organic experts</li>
+                            <li><i class="fas fa-check-circle"></i> Behind-the-scenes at our Kelso shop and café</li>
+                            <li><i class="fas fa-check-circle"></i> Early announcements for special events</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="newsletter-card">
+                        <div class="newsletter-header">
+                            <i class="fas fa-envelope newsletter-icon"></i>
+                            <h3>Subscribe Now</h3>
+                        </div>
+                        <form id="newsletterForm" class="newsletter-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="interest">
+                                    <option value="">What interests you most?</option>
+                                    <option value="products">New Organic Products</option>
+                                    <option value="recipes">Seasonal Recipes</option>
+                                    <option value="gardening">Organic Gardening Tips</option>
+                                    <option value="offers">Special Offers</option>
+                                    <option value="all">Everything!</option>
+                                </select>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="consent" required>
+                                <label class="form-check-label" for="consent">I agree to receive emails from Organic
+                                    ME</label>
+                            </div>
+                            <button type="submit" class="btn newsletter-btn">Subscribe</button>
+                        </form>
+                        <div id="thankYouMessage" class="thank-you-message">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Thank you for subscribing!</h4>
+                            <p>You'll receive your first newsletter next month.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <footer class="bg-footer" id="footer">
+        <div class="container-fluid">
+            <div class="row footer-align">
+                <!-- About Organic ME -->
+                <div class="col-md-4 col-sm-4">
+                    <h5>About Organic ME</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <p class="footer">
+                            Organic ME is dedicated to providing fresh, locally sourced organic products and promoting
+                            sustainable living in the Scottish Borders.
+                        </p>
+                        <ul class="social-networks">
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-md-4 col-sm-4">
+                    <h5>Contact Us</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <address>
+                            45 Meadowcroft Road
+                            <br>
+                            Kelso, TD5 7AB
+                            <br>
+                            Scottish Borders, Scotland
+                            <br>
+                            <i class="fa fa-phone address"></i> +44 1573 123456
+                            <br>
+                            <i class="fa fa-envelope address"></i> <a
+                                href="mailto:info@organicme.co.uk">info@organicme.co.uk</a>
+                        </address>
+                    </div>
+                </div>
+
+                <!-- Opening Hours -->
+                <div class="col-md-4 col-sm-4">
+                    <h5>Opening Hours</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <ul>
+                            <li>Mon-Fri: 08:00-18:00</li>
+                            <li>Sat: 09:00-17:00</li>
+                            <li>Sun: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="to-top" href="#myPage" title="toTop">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </footer>
+
+
+    <div class="footer-copyright">
+        <p>&copy 2025 Copyright by Ewan Blake </p>
+    </div>
+
+
+</body>
+
+</html>
